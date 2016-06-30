@@ -1,0 +1,21 @@
+@import "./../structure.css";
+
+#movebox { position: absolute; top: 0; left: 250px; right: 0; bottom: 0; padding: 30px 20px;}
+#movebox table { border-spacing: 0px; }
+
+#movebox table.size_43 td {
+	width: 43px; height: 43px;
+	border: 0 none;
+	font-size: 0;
+	margin: 0; padding: 0;
+	background: transparent url(img_43.png) no-repeat;
+}
+#movebox table.size_43 td.limit { background-position: 0 -43px; }
+#movebox table.size_43 td.back { background-position: -43px 0; }
+#movebox table.size_43 td.box { background-position: -129px 0; }
+#movebox table.size_43 td.target { background-position: -86px 0px; }
+#movebox table.size_43 td.target.box { background-position: -172px 0; }
+#movebox table.size_43 td.man, #movebox td.man.down { background-position: -86px -43px; }
+#movebox table.size_43 td.man.up { background-position: -129px -43px; }
+#movebox table.size_43 td.man.left { background-position: -43px -43px; }
+#movebox table.size_43 td.man.right { background-position: -172px -43px; }

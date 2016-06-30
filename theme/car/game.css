@@ -1,0 +1,23 @@
+@import "./../structure.css";
+
+#movebox { position: absolute; top: 0; left: 250px; right: 0; bottom: 0; padding: 30px 20px;}
+#movebox table { border-spacing: 0px; }
+
+#movebox td {
+	width: 43px; height: 43px;
+	border: 0 none;
+	font-size: 0;
+	margin: 0; padding: 0;
+}
+
+#movebox td.back { background: #000 url(back.gif) no-repeat; }
+#movebox td.limit { background: #000 url(limit.gif) no-repeat; }
+#movebox td.box { background: #000 url(box.gif) no-repeat; }
+#movebox td.target { background: #000 url(target.gif) no-repeat; }
+#movebox td.target.box { background: #000 url(end_box.gif) no-repeat; }
+
+#movebox td.man { background: #000 url(man.gif) no-repeat; }
+#movebox td.man.up { background: #000 url(man_up.gif) no-repeat; }
+#movebox td.man.down { background: #000 url(man_down.gif) no-repeat; }
+#movebox td.man.left { background: #000 url(man_left.gif) no-repeat; }
+#movebox td.man.right { background: #000 url(man_right.gif) no-repeat; }

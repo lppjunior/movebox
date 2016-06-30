@@ -1,0 +1,126 @@
+html, body {
+	background-color: #000;
+	color: #fff;
+	font-family: "Trebuchet MS", arial,helvetica;
+	margin: 0;
+}
+
+a  {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover  {
+	color: #A4A4A4;
+}
+
+#aside {
+	float: left;
+	position: fixed;
+	width: 250px;
+	background-color: #221F20;
+}
+
+.aside_content {
+	display: block;
+	padding: 10px 25px;
+}
+
+h1 {
+	color: #A5CE37;
+	font-weight: normal;
+	font-size: 55px;
+	margin: 0;
+	text-align: center;
+}
+h2 {
+	color: #57585A;
+	font-weight: normal;
+	font-size: 25px;
+	margin: -10px 0 0 0;
+	text-align: right;
+}
+
+strong {
+	color: #5B5B5B;
+	font-size: 20px;
+}
+
+span.result {
+	float: right;
+	color: #A7A7A7;
+	font-size: 28px;
+}
+
+.asideHigh span.result {
+	color: #ABCF4E;
+}
+
+
+.asideHigh {
+	background-color: #000;
+}
+
+.nav ul {
+	margin: 0; padding: 0;
+	list-style: none;
+	height: 30px;
+}
+
+.nav li span {
+	display: none;
+}
+
+.nav li .reload, .nav li .undo, .nav li .controls, .nav li .prev_level, .nav li .nex_level { float: left; }
+.nav li .reload { background: transparent url(reload.gif) no-repeat center center; }
+.nav li .undo { background: transparent url(back_move.gif) no-repeat center center; }
+.nav li .controls { background: transparent url(controls.gif) no-repeat center center; }
+.nav li .prev_level { background: transparent url(left.gif) no-repeat center center; }
+.nav li .nex_level { background: transparent url(right.gif) no-repeat center center; }
+
+.nav.controlsDiv {
+	background-color: #000;
+	padding: 10px 0;
+	
+}
+.nav.controlsDiv p { margin: 0; padding: 0;}
+.nav.controlsDiv strong { font-size: 15px; }
+
+.nav.controlsDiv ul {
+	width: 106px;
+	height: 65px;
+	padding: 10px;
+	margin-left: 53px;
+	background-color: #221F20; 
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+.nav.controlsDiv li a { padding: 0 2px; }
+.nav li .top { display: block; margin-left: 33px; }
+.nav li .right, .nav li .left, .nav li .down { float: left; margin-top: 3px; }
+.nav li .left { background: transparent url(left.gif) no-repeat center center; }
+.nav li .right { background: transparent url(right.gif) no-repeat center center; }
+.nav li .top { background: transparent url(top.gif) no-repeat center center; }
+.nav li .down { background: transparent url(down.gif) no-repeat center center; }
+
+.nav li a {
+	width: 30px; height: 30px;
+	padding: 0 3px;
+}
+
+#moves  {
+	height: 70px;
+}
+#moves  p {
+	width: 48%;
+	float: left;
+	margin: 0;
+}
+
+.moves, .moves span.result  {
+	float: none;
+	text-align: left;
+}
+.pushes  {
+	text-align: right;
+}
